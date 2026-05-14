@@ -104,10 +104,21 @@ npm install
 Create a `.env` file in the root directory.
 ```env
 PORT=5000
-MONGODB_URL=your_mongodb_connection_string
-JWT_SECRET=your_secret_key
-EMAIL_USER=your_email@gmail.com
-EMAIL_PASS=your_email_password
+MONGO_URI=your_mongodb_connection_string
+ACCESS_TOKEN_SECRET = 
+ACCESS_TOKEN_EXPIRY = 
+REFRESH_TOKEN_SECRET = 
+REFRESH_TOKEN_EXPIRY = 
+SMTP_HOST = 
+SMTP_PORT = 
+SMTP_USER = 
+SMTP_PASS = 
+CLOUDINARY_CLOUD_NAME = 
+CLOUDINARY_API_KEY = 
+CLOUDINARY_API_SECRET = 
+FIREBASE_PROJECT_ID = 
+FIREBASE_CLIENT_EMAIL = 
+FIREBASE_PRIVATE_KEY =
 ```
 
 ---
